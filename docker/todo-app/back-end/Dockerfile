@@ -6,7 +6,7 @@ WORKDIR /app/back-end
 
 ADD node_modules.tar.gz .
 
-COPY . /app/back-end
+COPY . .
 
 ENTRYPOINT [ "npm" ]
 
